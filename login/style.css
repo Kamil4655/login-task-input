@@ -1,0 +1,132 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-dv {
+    width: 20%;
+    height: 68vh;
+    background-color: white;
+
+    .loginText h2 {
+        font-family: sans-serif;
+        width: 25%;
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+}
+
+
+form .email {
+    width: 80%;
+    height: 5vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(227, 227, 227);
+    border: 0;
+}
+
+form .password {
+    width: 80%;
+    height: 5vh;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(227, 227, 227);
+    border: 0;
+}
+
+form .checkbox {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 240px;
+    color: fuchsia;
+    cursor: pointer;
+}
+
+form .button {
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 13px 100px 13px;
+    font-family: sans-serif;
+    background-color: rgb(191, 29, 191);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.other {
+    font-size: small;
+    color: rgb(186, 180, 180);
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.web {
+    width: 90%;
+    height: 4vh;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .facebook {
+        width: 40%;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(227, 227, 227);
+
+
+        i {
+            color: rgba(0, 0, 255, 0.534);
+
+        }
+
+        h5 {
+            color: rgba(0, 0, 255, 0.534);
+            font-family: sans-serif;
+            margin-left: 7px;
+        }
+    }
+
+    .google {
+        width: 40%;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(227, 227, 227);
+        i {
+            background: rgb(0, 14, 255);
+            background: linear-gradient(0deg, rgba(0, 14, 255, 0.5439425770308124) 28%, rgba(255, 132, 0, 1) 100%);
+        }
+
+        h5 {
+            font-family: sans-serif;
+            color: black;
+            margin-left: 7px;
+        }
+    }
+}
+
+.footer{
+    font-size: small;
+    color: rgb(186, 180, 180);
+    margin-left: 80px;
+    margin-top: 100px;
+}
